@@ -21,14 +21,14 @@ global.APIKeys = {
 }
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-global.session = process.env.SESSION_ID || 'PUT HERE',
+global.session = process.env.SESSION_ID || 'VjJmOW5TQ1U=',
 global.ownername = process.env.OWNER_NAME === undefined ? "VisHnuU" : process.env.OWNER_NAME
-let fake = process.env.OWNER_NUMBER === undefined ? '8943699836' : process.env.OWNER_NUMBER
+let fake = process.env.OWNER_NUMBER === undefined ? '7356310205' : process.env.OWNER_NUMBER
 global.owner = [`${fake}`]
 global.ownernumber = [`${fake}`]
 global.premium = [`${fake}`]
 global.anticall = process.env.ANTICALL === undefined ? 'false' : process.env.ANTICALL
-global.packname = process.env.PACK_NAME === undefined ? 'Queen-MD' : process.env.PACK_NAME
+global.packname = process.env.PACK_NAME === undefined ? 'Queen-MD vIsHnU BOt' : process.env.PACK_NAME
 global.author = process.env.STICKER_AUTHOR_NAME === undefined ? 'VIshnu' : process.env.STICKER_AUTHOR_NAME
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
